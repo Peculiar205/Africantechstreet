@@ -24,7 +24,7 @@ export const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 group">
+          <a href="#" className="flex items-center gap-2 group focus:outline-none focus:ring-2 focus:ring-ats-orange rounded-lg p-1">
             <Logo className="h-10 w-10 md:h-12 md:w-12 transition-transform group-hover:scale-105" />
             <div className={`flex flex-col ${isScrolled ? 'text-ats-green' : 'text-ats-green'}`}>
               <span className="font-heading font-bold text-xl leading-none">African</span>
@@ -38,7 +38,7 @@ export const Navbar: React.FC = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className={`text-sm font-semibold transition-colors hover:text-ats-orange ${
+                className={`text-sm font-semibold transition-colors hover:text-ats-orange focus:outline-none focus:ring-2 focus:ring-ats-orange rounded-md px-2 py-1 ${
                   isScrolled ? 'text-slate-700' : 'text-slate-800' // Dark text by default as hero might be light
                 }`}
               >
@@ -47,7 +47,7 @@ export const Navbar: React.FC = () => {
             ))}
             <a 
               href="#contact"
-              className="bg-ats-orange hover:bg-ats-orangeLight text-white px-6 py-2.5 rounded-full font-bold text-sm transition-all shadow-lg hover:shadow-orange-500/30 transform hover:-translate-y-0.5"
+              className="bg-ats-orange hover:bg-ats-orangeLight text-white px-6 py-2.5 rounded-full font-bold text-sm transition-all shadow-lg hover:shadow-orange-500/30 transform hover:-translate-y-0.5 focus:outline-none focus:ring-4 focus:ring-ats-orange/30"
             >
               Join ATS
             </a>
@@ -55,7 +55,7 @@ export const Navbar: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button 
-            className="md:hidden text-ats-green"
+            className="md:hidden text-ats-green focus:outline-none focus:ring-2 focus:ring-ats-orange rounded-md p-1"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -75,7 +75,7 @@ export const Navbar: React.FC = () => {
             <a
               key={item.label}
               href={item.href}
-              className="text-slate-800 font-medium text-lg hover:text-ats-orange"
+              className="text-slate-800 font-medium text-lg hover:text-ats-orange focus:outline-none focus:ring-2 focus:ring-ats-orange rounded-md px-2 py-1"
               onClick={() => setIsOpen(false)}
             >
               {item.label}
@@ -83,7 +83,7 @@ export const Navbar: React.FC = () => {
           ))}
           <a 
             href="#contact"
-            className="bg-ats-orange text-white text-center py-3 rounded-lg font-bold shadow-md"
+            className="bg-ats-orange text-white text-center py-3 rounded-lg font-bold shadow-md focus:outline-none focus:ring-4 focus:ring-ats-orange/30"
             onClick={() => setIsOpen(false)}
           >
             Join the Movement

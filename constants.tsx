@@ -24,7 +24,7 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const HERO_CONTENT = {
   tagline: "Rewriting Africa's Tech Story",
-  headline: "Empowering 10 Million African Tech Innovators",
+  headline: "Empowering 10,000+ African Tech Innovators",
   subheadline: "Join the first digital syndicate leveraging monetization to fund startups. No equity sharing. Just community, transparency, and growth.",
   ctaPrimary: "Join the Movement",
   ctaSecondary: "Learn More"
@@ -95,7 +95,7 @@ export const UNIQUE_FEATURES: FeatureProps[] = [
 export const CONTACT_INFO = {
   email: "hello@africantechstreet.com", // Placeholder based on domain usually, or could use form
   phone: "+234 708 638 7392",
-  address: "Lagos, Nigeria (Pan-African Operations)"
+  address: "Nigeria (Pan-African Operations)"
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
@@ -110,32 +110,32 @@ export const TEAM_MEMBERS: TeamMember[] = [
   { 
     name: "Dr. Adebayo Alabi", 
     role: "Founder & Visionary", 
-    image: "https://picsum.photos/400/400?random=101",
+    image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
     bio: "Tech ecosystem builder with 15+ years driving innovation across West Africa." 
   },
   { 
     name: "Zainab Mohammed", 
     role: "Head of Operations", 
-    image: "https://picsum.photos/400/400?random=102",
+    image: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
     bio: "Operational excellence expert ensuring our syndicate runs like clockwork." 
   },
   { 
     name: "Kofi Mensah", 
     role: "Community Lead", 
-    image: "https://picsum.photos/400/400?random=103",
+    image: "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
     bio: "Connecting creators and founders to build meaningful partnerships." 
   },
   { 
     name: "Sarah Okafor", 
     role: "Strategic Partnerships", 
-    image: "https://picsum.photos/400/400?random=104",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
     bio: "Bridging the gap between traditional finance and the new digital economy." 
   },
 ];
 
 export const MILESTONES: Milestone[] = [
-  { year: "2025", title: "The Genesis", description: "African Tech Street launches its pilot program in Lagos, establishing the core revenue pooling protocol." },
+  { year: "2025", title: "The Genesis", description: "African Tech Street launches its pilot program in Nigeria, establishing the core revenue pooling protocol." },
   { year: "2026", title: "Ecosystem Expansion", description: "Onboarding 5,000+ creators and funding the first cohort of 100 startups across West Africa." },
   { year: "2027", title: "Pan-African Hubs", description: "Opening operational hubs in Nairobi, Accra, and Cape Town to bridge regional tech gaps." },
-  { year: "Future", title: "10 Million Strong", description: "Reaching our ultimate goal: 10 million funded startups driving a self-sustaining African economy." },
+  { year: "Future", title: "10,000+ Strong", description: "Reaching our ultimate goal: 10,000+ funded startups driving a self-sustaining African economy." },
 ];

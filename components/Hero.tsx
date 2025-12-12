@@ -27,14 +27,14 @@ export const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a 
                 href="#contact" 
-                className="flex items-center justify-center gap-2 bg-ats-orange hover:bg-ats-orangeLight text-white px-8 py-4 rounded-full font-bold text-base transition-all shadow-lg hover:shadow-ats-orange/40 hover:-translate-y-1"
+                className="flex items-center justify-center gap-2 bg-ats-orange hover:bg-ats-orangeLight text-white px-8 py-4 rounded-full font-bold text-base transition-all shadow-lg hover:shadow-ats-orange/40 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-ats-orange/30"
               >
                 {HERO_CONTENT.ctaPrimary}
                 <ArrowRight size={20} />
               </a>
               <a 
                 href="#about" 
-                className="flex items-center justify-center gap-2 bg-white border border-slate-200 hover:border-ats-green text-slate-700 hover:text-ats-green px-8 py-4 rounded-full font-bold text-base transition-all hover:shadow-md"
+                className="flex items-center justify-center gap-2 bg-white border border-slate-200 hover:border-ats-green text-slate-700 hover:text-ats-green px-8 py-4 rounded-full font-bold text-base transition-all hover:shadow-md focus:outline-none focus:ring-4 focus:ring-ats-green/20"
               >
                 <PlayCircle size={20} />
                 {HERO_CONTENT.ctaSecondary}
@@ -72,7 +72,7 @@ export const Hero: React.FC = () => {
               </div>
               <div>
                 <p className="text-xs text-slate-500 font-bold uppercase">Total Startups Goal</p>
-                <p className="text-lg font-extrabold text-slate-800">10 Million</p>
+                <p className="text-lg font-extrabold text-slate-800">10,000+</p>
               </div>
             </div>
           </div>

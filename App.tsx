@@ -6,6 +6,7 @@ import { WhyUs } from './components/WhyUs';
 import { Services } from './components/Services';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { ChatBot } from './components/ChatBot';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <ChatBot />
     </div>
   );
 }
